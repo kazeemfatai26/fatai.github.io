@@ -120,10 +120,12 @@ nav {
 
 
 
-main {
-    @apply grid grid-cols-12 justify-center mx-auto;
-}
+
 
 main section {
-    @apply col-span-8 mx-auto;
+    @apply mb-8;
+}
+
+.section-content {
+    @apply w-3/5;
 }

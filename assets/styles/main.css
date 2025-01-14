@@ -813,18 +813,12 @@ nav {
   font-style: italic;
 }
 
-main {
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  justify-content: center;
+main section {
+  margin-bottom: 2rem;
 }
 
-main section {
-  grid-column: span 8 / span 8;
-  margin-left: auto;
-  margin-right: auto;
+.section-content {
+  width: 60%;
 }
 
 @media (min-width: 640px) {
