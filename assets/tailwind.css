@@ -86,7 +86,7 @@ nav {
     @apply text-3xl font-semibold leading-relaxed;
 }
 
-.section-content {
+* {
     @apply space-mono-regular;
 }
 
@@ -134,4 +134,8 @@ main section {
 .project .project-title {
     @apply text-xl font-semibold;
 
+}
+
+.date {
+    @apply font-semibold italic pl-3;
 }
