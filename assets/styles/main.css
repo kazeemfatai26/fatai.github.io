@@ -558,6 +558,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -586,8 +590,20 @@ video {
   list-style-type: decimal;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -854,8 +870,15 @@ main section {
   margin-bottom: 2rem;
 }
 
-.section-content {
-  width: 60%;
+section, header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  section, header {
+    width: 60%;
+  }
 }
 
 .project .project-title {
@@ -875,4 +898,3 @@ main section {
     display: flex;
   }
 }
-

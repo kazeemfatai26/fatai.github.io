@@ -126,8 +126,8 @@ main section {
     @apply mb-8;
 }
 
-.section-content {
-    @apply w-3/5;
+section, header {
+    @apply sm:w-3/5 mx-auto;
 }
 
 
@@ -139,4 +139,3 @@ main section {
 .date {
     @apply font-semibold italic pl-3;
 }
-
