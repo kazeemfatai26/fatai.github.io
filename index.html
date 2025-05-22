@@ -32,8 +32,15 @@
     <section class="sm:flex pb-4 border-b gap-x-8 items-center justify-center ">
       <div>
         <h1 class="font-medium text-[24px] ">Fatai Kazeem</h1>
-        <p><span class="font-semibold pr-2 leading-loose">Email:</span> <span>fataikazeem2001 [at] gmail [dot] com</span>
+        <p class="flex items-center gap-x-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12H8m8 0l-4 4m4-4l-4-4m0 4H8m0 0l4 4m-4-4l4-4" />
+          </svg>
+          <a href="mailto:fataikazeem2001@gmail.com" class="text-blue-600 hover:underline">
+            fataikazeem2001@gmail.com
+          </a>
         </p>
+        
         <ul class="flex gap-x-3 mt-2">
           <li class="link"><a href="https://github.com/kazeemfatai26">GitHub</a></li>
           <li class="link"><a href="https://www.linkedin.com/in/fataikazeem/">LinkedIn</a></li>
@@ -42,7 +49,7 @@
         </ul>
       </div>
       <div>
-        <img class="object-contain shadow w-[300px] h-50 rounded-xl" src="/assets/fatai.jpg"
+        <img class="object-contain shadow w-[300px] h-50 rounded-xl" src="assets/fatai.jpg"
           style="clip-path: circle(50% at 50% 50%);">
       </div>
     </section>
@@ -62,29 +69,22 @@
     </section>
 
 
-    <section>
+    <section id="research">
       <h2 class="section-title">Research Experience</h2>
-      <dl class="mb-2 list-decimal list-inside font-bold text-xl leading-1">
-        <dt>Project Title: Prediction Of Electrical Energy Demand of a Telecommunication
-          Infrastructure Using Auto Regressive Integrated Moving Average Model. </dt>
-      </dl>
-      <dd>
-        Synopsis: Future electrical energy usage (in kW) prediction using load data collected from selected Base Transceiver Station.
-        Duties: Collected and analyzed data from onsite data loggers, used Python
-        programming language to program the selected model for predicting future
-        electrical energy demand and also used HOMER Pro software to design an
-        optimized energy solution to meet the forecasted energy demand.
-      </dd>
-
-      <dl class="mb-2 hidden  mt-6 list-decimal list-inside font-bold text-xl leading-1">
-        <dt>Software Engineer | Research Engineer @ <a href="#" class="link">Ocudigital Technologies</a> </dt>
-      </dl>
-      <dd class="hidden">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium alias, consequatur beatae ipsam
-        temporibus voluptatum inventore eveniet magni at dolor ipsa molestiae delectus voluptatem vero magnam sit vitae
-        laudantium?
-      </dd>
+    
+      <article class="research-item">
+        <h3 class="project-title">
+          Prediction of Electrical Energy Demand for a Telecommunication Infrastructure Using ARIMA
+        </h3>
+        <p class="research-meta"><strong>Role · Year:</strong> Lead Researcher | 2024</p>
+        <ul class="research-bullets">
+          <li>Gathered and cleaned BTS load-profile data (1-minute resolution).</li>
+          <li>Built an ARIMA model in Python to forecast 1-month demand (MAPE ≈ 7 %).</li>
+          <li>Simulated a hybrid PV-battery-biogas solution in HOMER Pro to meet the forecast.</li>
+        </ul>
+      </article>
     </section>
+    
 
 
     <section>
@@ -92,8 +92,8 @@
       <ol class="list-decimal list-inside">
         <li>Graduate Member of the Nigerian Society of Engineers [GMNSE] <span class="date">2025 &dash; present</span>
         </li>
-        <li> Electrical and Electronics Student Association [EEESA] &dash; 2019 - 2024 <span class="date">2025 &dash;
-            present</span>
+        <li> Electrical and Electronics Student Association [EEESA] <span class="date">2019 &dash;
+            2024</span>
         </li>
         <li>Nigerian Universities Engineering Students' Association [NUESA] <span class="date">2019 &dash; 2024 </span>
         </li>
